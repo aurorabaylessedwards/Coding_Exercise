@@ -5,7 +5,7 @@ This project is written in Python 3, and requires an up-to-date installation of 
 
 To set up the project open PyCharm using the Anaconda Navigator. 
 
-![open_pycharm](/open_pycharm.png?raw=true "open PyCharm")
+![open_pycharm](/images/open_pycharm.png?raw=true "open PyCharm")
 
 Select 'Get from Version Control' and paste the URL of this project. **https://github.com/aurorabaylessedwards/CSI_Coding_Exercise.git**
 
@@ -13,11 +13,11 @@ Select 'Get from Version Control' and paste the URL of this project. **https://g
 
 Set up an interpreter in python 3.x (7 or 8). 
 
-![configure_interpreter](/configure_interpreter.png?raw=true "configure interpreter")
+![configure_interpreter](/images/configure_interpreter.png?raw=true "configure interpreter")
 
 ## Download the packages you need [geopandas](https://geopandas.org/install.html), [pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html), and [shapely](https://pypi.org/project/Shapely/).
 
-![install_packages](/install_packages.png?raw=true "install packages")
+![install_packages](/images/install_packages.png?raw=true "install packages")
 
 Now, you should be able to execute the coding_exercise.py file without errors.
 
