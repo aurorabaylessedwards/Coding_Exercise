@@ -7,6 +7,9 @@ To set up the project open PyCharm using the Anaconda Navigator. Select get from
 
 ![open_pycharm](/open_pycharm.png?raw=true)
 
+Next you will see an error prompting you to set up your python interpreter for the project.
+
+
 
 Please, reach out if you have any questions to abayless-edwards at QSI. 
 
