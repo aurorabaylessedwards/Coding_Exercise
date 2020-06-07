@@ -14,7 +14,7 @@ Set up an interpreter in python 3.x (7 or 8).
 
 Next download the packages you need [geopandas](https://geopandas.org/install.html), [pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html), and [shapely](https://pypi.org/project/Shapely/).
 
-![configure_interpreter](/configure_interpreter.png?raw=true "configure interpreter")
+![install_packages](/install_packages.png?raw=true "install packages")
 
 
 
