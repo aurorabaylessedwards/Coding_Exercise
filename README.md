@@ -1,4 +1,4 @@
-# CSI Coding Exercise ~Aurora~
+# CSI Coding Exercise -- Aurora
 
 Finds the nearest tall building to each random point around Portland, OR (see [G. Berardinelli's instructions](https://gist.github.com/gberardinelli/8567cdbcad220e46b2f8fc4e33a203a0)). 
 
