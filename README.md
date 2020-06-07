@@ -5,7 +5,7 @@ This project is written in Python 3, and requires an up-to-date installation of 
 
 To set up the project open PyCharm using the Anaconda Navigator. Select get from version control and paste the URL of this project. **https://github.com/aurorabaylessedwards/CSI_Coding_Exercise.git**
 
-![open_pycharm](/CSI_Coding_Exercise/open_pycharm.png?raw=true)
+![open_pycharm](/open_pycharm.png?raw=true)
 
 Next you will see an error prompting you to set up your python interpreter for the project.
 
