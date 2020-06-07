@@ -7,15 +7,15 @@ To set up the project open PyCharm using the Anaconda Navigator. Select get from
 
 ![open_pycharm](/open_pycharm.png?raw=true "open PyCharm")
 
-## You will see an error prompting you to set up your python interpreter for the project. Click on the error to address the problem.
+## You will see an error prompting you to set up your python interpreter for the project. 
+
 Set up an interpreter in python 3.x (7 or 8). 
 
 ![configure_interpreter](/configure_interpreter.png?raw=true "configure interpreter")
 
-Next download the packages you need [geopandas](https://geopandas.org/install.html), [pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html), and [shapely](https://pypi.org/project/Shapely/).
+## Download the packages you need [geopandas](https://geopandas.org/install.html), [pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html), and [shapely](https://pypi.org/project/Shapely/).
 
 ![install_packages](/install_packages.png?raw=true "install packages")
-
 
 
 Please, reach out if you have any questions to abayless-edwards at QSI. 
