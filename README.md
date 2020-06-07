@@ -19,6 +19,7 @@ Set up an interpreter in python 3.x (7 or 8).
 
 ![install_packages](/install_packages.png?raw=true "install packages")
 
+Now, you should be able to execute the .py file without errors.
 
 Please, reach out if you have any questions to abayless-edwards at QSI. 
 
