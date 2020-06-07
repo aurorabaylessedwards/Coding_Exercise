@@ -19,7 +19,7 @@ Set up an interpreter in python 3.x (7 or 8).
 
 ![install_packages](/images/install_packages.png?raw=true "install packages")
 
-Now, you should be able to run ```python coding_exercise.py``` without errors. The output of this script will print some information to the python console including the location of output shapefiles. By default these are written to the `CSI_Coding_Exercise` folder created as part of the cloning process. However, you can change the output directory by changing the path at the beginning of the script. 
+Now, you should be able to run `coding_exercise.py` without errors. The output of this script will print some information to the python console including the location of output shapefiles. By default these are written to the `CSI_Coding_Exercise` folder created as part of the cloning process. However, you can change the output directory by changing the path at the beginning of the script. 
 
 
 Please, reach out if you have any questions to abayless-edwards at QSI. 
