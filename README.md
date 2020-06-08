@@ -6,7 +6,7 @@ This project is written in Python 3. If you do not have Python 3, I suggest down
 
 Additionally, you will need git/github set up in PyCharm. This [video](https://www.youtube.com/watch?v=NhFRpFtiHec) is a great resource to walk you through the process of setting up git/github, additionally [PyCharm has some doccumentation on the process](https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html).
 
-To set up the project open PyCharm using the Anaconda Navigator. 
+To set up the project, open PyCharm using the Anaconda Navigator. 
 
 ![open_pycharm](/images/open_pycharm.png?raw=true "open PyCharm")
 
