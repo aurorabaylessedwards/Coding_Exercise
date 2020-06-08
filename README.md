@@ -13,8 +13,9 @@ To set up the project open PyCharm using the Anaconda Navigator.
 Select 'Get from Version Control' and paste the URL of this project. **https://github.com/aurorabaylessedwards/CSI_Coding_Exercise.git**
 
 ## You will see an error in the top right hand corner of the screen prompting you to set up your python interpreter for the project. 
+![err](/images/error.png?raw=true "error_pic")
 
-The screenshot below shows how to set up an interpreter in python 3.x (7 or 8). 
+Set up an interpreter in python 3.x (7 or 8). 
 
 ![configure_interpreter](/images/configure_interpreter.png?raw=true "configure interpreter")
 
