@@ -4,7 +4,7 @@ Finds the nearest tall building to each random point around Portland, OR (see [G
 
 This project is written in Python 3. If you do not have Python 3, I suggest downloading 64-Bit Python 3.7 [Anaconda](https://www.anaconda.com/products/individual) with [PyCharm](https://www.jetbrains.com/pycharm/download/#section=windows). 
 
-Additionally, you will need git/github set up in PyCharm. This [video](https://www.youtube.com/watch?v=NhFRpFtiHec) is a great resource to walk you through the process of setting up git/github, additionally [PyCharm has some doccumentation on the process](https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html).
+Ensure you have integrated PyCharm with Git. This [video](https://www.youtube.com/watch?v=NhFRpFtiHec) is a great resource to walk you through the process of setting up git/github in PyCharm. PyCharm also has some great [documentation](https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html) on the process.
 
 To set up the project, open PyCharm using the Anaconda Navigator. 
 
