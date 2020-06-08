@@ -15,7 +15,7 @@ Select 'Get from Version Control' and paste the URL of this project. **https://g
 ## You will see an error in the top right hand corner of the screen prompting you to set up your python interpreter for the project. 
 ![err](/images/error.png?raw=true "error_pic")
 
-Set up an interpreter in python 3.x (7 or 8). 
+To set up an interpreter in python 3.x (7 or 8), you will need to know the path of your Python 3 executable. In this example it shows the path of Anaconda3. 
 
 ![configure_interpreter](/images/configure_interpreter.png?raw=true "configure interpreter")
 
