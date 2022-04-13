@@ -40,7 +40,7 @@ points = pd.read_csv(url_q, error_bad_lines=False)
 def create_gdf(df, x="X", y="Y"):
     return gpd.GeoDataFrame(df,
                             geometry=gpd.points_from_xy(df[y], df[x]),
-                            crs="EPSG:2991")
+                            crs="EPSG:6559")
 
 # make your Geodataframes
 buildings_gdf = create_gdf(buildings)
