@@ -1,5 +1,5 @@
 """
-CSI Coding Exercise BONUS
+Coding Exercise
 
 # This script finds the buildings within a user specified
 # distance of random points. If the user does not specify a
