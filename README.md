@@ -10,7 +10,7 @@ To set up the project, open PyCharm using the Anaconda Navigator.
 
 ![open_pycharm](/images/open_pycharm.png?raw=true "open PyCharm")
 
-To clone this project, select 'Get from Version Control' and paste the URL: **https://github.com/aurorabaylessedwards/CSI_Coding_Exercise.git**
+To clone this project, select 'Get from Version Control' and paste the URL: **https://github.com/aurorabaylessedwards/Coding_Exercise.git**
 
 ## You will see an error in the top right hand corner of the screen prompting you to set up your python interpreter for the project. 
 ![err](/images/error.png?raw=true "error_pic")
