@@ -12,7 +12,7 @@ Coding Exercise script
 # path = "C:/Users/ADD_YOUR_USER_NAME/PycharmProjects/Coding_Exercise/"; os.chdir(path)
 """
 
-print("This script works best on a small dataset. If this task were scaled to a larger dataset \ I reccomend Scipy.spatial.KDTree \ [https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.KDTree.html]")
+print("This script works best on a small dataset. \ If you are scaling to a larger dataset \ I reccomend Scipy.spatial.KDTree \ [https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.KDTree.html]")
 
 # This allows the user to specify to continue
 while input("Do You Want To Continue? [y/n]") == "y":
