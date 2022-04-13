@@ -88,4 +88,4 @@ points_gdf.to_file(driver='ESRI Shapefile', filename='random_neighbors.shp')
 
 # print the locations of outputs
 print(os.getcwd()+"\\random_neighbors.shp created. \n This contains information about \n the nearest building in the attribute table.")
-print(os.getcwd()+"\\buildings.shp created. \n This contains the 30 tallest buildings in Portland.")
+print(os.getcwd()+"\\buildings.shp created. \n This contains the 10 tallest buildings in Portland.")
