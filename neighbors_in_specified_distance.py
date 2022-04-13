@@ -29,8 +29,8 @@ import pandas as pd
 
 
 # list the url of the buildings and points csv files.
-url_b = 'https://gist.githubusercontent.com/gberardinelli/8567cdbcad220e46b2f8fc4e33a203a0/raw/e9d27e14fbbde4b28a6c09d077b43537310a5b0b/buildings.csv'
-url_q = 'https://gist.githubusercontent.com/gberardinelli/8567cdbcad220e46b2f8fc4e33a203a0/raw/e9d27e14fbbde4b28a6c09d077b43537310a5b0b/queries.csv'
+url_b = 'https://raw.githubusercontent.com/aurorabaylessedwards/Coding_Exercise/master/buildings_in_pdx.csv'
+url_q = 'https://raw.githubusercontent.com/aurorabaylessedwards/Coding_Exercise/master/randomPoints.csv'
 
 # read in the csv files as pandas data frames
 buildings = pd.read_csv(url_b, error_bad_lines=False)
