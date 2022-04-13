@@ -15,9 +15,8 @@ Coding Exercise script
 print("This script works best on a small dataset. If this task were scaled to a larger dataset \ I reccomend Scipy.spatial.KDTree \ [https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.KDTree.html]")
 
 # This allows the user to specify to continue
-yn = input("Continue? Y/N")
-if yn == "Y":
-    try:
+while input("Do You Want To Continue? [y/n]") == "y":
+    print("proceeding")
 
 
 # import needed packages
