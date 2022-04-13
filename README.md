@@ -1,6 +1,6 @@
 # CSI Coding Exercise -- Aurora
 
-Finds the nearest tall building to each random point around Portland, OR (see G. Berardinelli's instructions). 
+Finds the nearest tall building to random points around Portland, OR. 
 
 This project is written in Python 3. If you do not have Python 3, I suggest downloading 64-Bit Python 3.7 [Anaconda](https://www.anaconda.com/products/individual) with [PyCharm](https://www.jetbrains.com/pycharm/download/#section=windows). 
 
