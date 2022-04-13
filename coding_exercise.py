@@ -13,7 +13,12 @@ Coding Exercise script
 """
 
 print("This script works best on a small dataset. If this task were scaled to a larger dataset \ I reccomend Scipy.spatial.KDTree \ [https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.KDTree.html]")
-print("Continue? Y/N")
+
+# This allows the user to specify to continue
+yn = input("Continue? Y/N")
+if yn == "Y":
+    try:
+
 
 # import needed packages
 import geopandas as gpd
@@ -92,3 +97,6 @@ points_gdf.to_file(driver='ESRI Shapefile', filename='random_neighbors.shp')
 # print the locations of outputs
 print(os.getcwd()+"\\random_neighbors.shp created. \n This contains information about \n the nearest building in the attribute table.")
 print(os.getcwd()+"\\buildings.shp created. \n This contains the 10 tallest buildings in Portland.")
+
+ except:
+        print("canceling")
