@@ -1,8 +1,7 @@
 """
-CSI Coding Exercise script
+Coding Exercise script
 
-# This script finds the nearest tall building to each random 
-# point specified in gberardinelli's github project.
+# This script finds the nearest tall building to each random point.
 
 # This project is written in Python 3, and requires an up-to-date
 # installation of geopandas, pandas, and shapely.
@@ -10,7 +9,7 @@ CSI Coding Exercise script
 
 """
 # optional set your working directory
-# path = "C:/Users/ADD_YOUR_USER_NAME/PycharmProjects/CSI_Coding_Exercise/"; os.chdir(path)
+# path = "C:/Users/ADD_YOUR_USER_NAME/PycharmProjects/Coding_Exercise/"; os.chdir(path)
 """
 
 # import needed packages
@@ -21,8 +20,8 @@ import os
 
 
 # list the url of the buildings and points csv files.
-url_b = 'https://gist.githubusercontent.com/gberardinelli/8567cdbcad220e46b2f8fc4e33a203a0/raw/e9d27e14fbbde4b28a6c09d077b43537310a5b0b/buildings.csv'
-url_q = 'https://gist.githubusercontent.com/gberardinelli/8567cdbcad220e46b2f8fc4e33a203a0/raw/e9d27e14fbbde4b28a6c09d077b43537310a5b0b/queries.csv'
+# url_b = 'https://gist.githubusercontent.com/gberardinelli/8567cdbcad220e46b2f8fc4e33a203a0/raw/e9d27e14fbbde4b28a6c09d077b43537310a5b0b/buildings.csv'
+# url_q = 'https://gist.githubusercontent.com/gberardinelli/8567cdbcad220e46b2f8fc4e33a203a0/raw/e9d27e14fbbde4b28a6c09d077b43537310a5b0b/queries.csv'
 
 # read in the csv files as pandas data frames
 buildings = pd.read_csv(url_b, error_bad_lines=False)
