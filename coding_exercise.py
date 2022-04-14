@@ -17,6 +17,8 @@ import geopandas as gpd
 import pandas as pd
 from shapely.ops import nearest_points
 import os
+import time
+
 
 
 # list the url of the buildings and points csv files.
@@ -24,8 +26,8 @@ url_b = 'https://raw.githubusercontent.com/aurorabaylessedwards/Coding_Exercise/
 url_q = 'https://raw.githubusercontent.com/aurorabaylessedwards/Coding_Exercise/master/randomPoints.csv'
 
 # read in the csv files as pandas data frames
-buildings = pd.read_csv(url_b, error_bad_lines=False)
-points = pd.read_csv(url_q, error_bad_lines=False)
+buildings = pd.read_csv(url_b)
+points = pd.read_csv(url_q)
 
 # this function creates Geopandas Geodataframe
 # with which you can run spatial operations
@@ -38,6 +40,8 @@ def create_gdf(df, x="X", y="Y"):
 buildings_gdf = create_gdf(buildings)
 points_gdf = create_gdf(points)
 
+
+start = time.time()
 # Find the nearest building neighbor of each random point
 # for more information look at:
 # https://shapely.readthedocs.io/en/latest/manual.html
@@ -81,6 +85,9 @@ points_gdf["floors"] = points_gdf.apply(calculate_nearest,
 
 print("The nearest tower to each random point is")
 print(pd.concat([points_gdf["Name"], points_gdf["nearest"]], axis=1))
+
+end = time.time()
+print("The process took " + str(end - start) + " seconds with nearest_points() function from shapely.")
 
 # create output files
 buildings_gdf.to_file(driver='ESRI Shapefile', filename='buildings.shp')
