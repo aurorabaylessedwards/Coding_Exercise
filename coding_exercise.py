@@ -24,15 +24,15 @@ url_b = 'https://raw.githubusercontent.com/aurorabaylessedwards/Coding_Exercise/
 url_q = 'https://raw.githubusercontent.com/aurorabaylessedwards/Coding_Exercise/master/randomPoints.csv'
 
 # read in the csv files as pandas data frames
-buildings = pd.read_csv(url_b)
-points = pd.read_csv(url_q)
+buildings = pd.read_csv(url_b, error_bad_lines=False)
+points = pd.read_csv(url_q, error_bad_lines=False)
 
 # this function creates Geopandas Geodataframe
 # with which you can run spatial operations
 def create_gdf(df, x="X", y="Y"):
     return gpd.GeoDataFrame(df,
                             geometry=gpd.points_from_xy(df[y], df[x]),
-                            crs="EPSG:6559")
+                            crs={"init": "EPSG:6559"})
 
 # make your Geodataframes
 buildings_gdf = create_gdf(buildings)
