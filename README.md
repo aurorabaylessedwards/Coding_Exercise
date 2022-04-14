@@ -1,4 +1,4 @@
-# Coding Exercise -- Aurora
+# Coding Exercise
 
 Finds the nearest tall building to random points around Portland, OR. 
 
