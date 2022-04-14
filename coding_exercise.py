@@ -1,7 +1,7 @@
 """
 Coding Exercise script
 
-# This script finds the nearest tall building to each random point.
+# This script finds the nearest tall building to random points in portland.
 
 # This project is written in Python 3, and requires an up-to-date
 # installation of geopandas, pandas, and shapely.
