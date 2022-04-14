@@ -1,15 +1,11 @@
 """
 Coding Exercise script
 
-# This script finds the buildings within a user specified
-# distance of random points. If the user does not specify a
-# valid value the default is 1000 ft.
-
-# The output of the script shows the points nearby
-# buildings and their height ranking in the console.
+# This script finds the nearest tall building random points throughout portland.
+# The neighbors are printed in the console, and a shapefile is output into your working directory.
 
 # This project is written in Python 3, and requires an up-to-date
-# installation of geopandas & pandas.
+# installation of geopandas, pandas, and shapely.
 """
 
 """
@@ -23,8 +19,6 @@ import pandas as pd
 from shapely.ops import nearest_points
 import os
 import time
-
-
 
 # list the url of the buildings and points csv files.
 url_b = 'https://raw.githubusercontent.com/aurorabaylessedwards/Coding_Exercise/master/buildings_in_pdx.csv'
