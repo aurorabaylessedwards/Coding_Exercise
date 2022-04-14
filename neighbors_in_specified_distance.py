@@ -5,7 +5,7 @@ Coding Exercise
 # distance of random points. If the user does not specify a
 # valid value the default is 1000 ft.
 
-# The output of the script shows the point's nearby
+# The output of the script shows the points nearby
 # buildings and their height ranking in the console.
 
 # This project is written in Python 3, and requires an up-to-date
@@ -33,8 +33,8 @@ url_b = 'https://raw.githubusercontent.com/aurorabaylessedwards/Coding_Exercise/
 url_q = 'https://raw.githubusercontent.com/aurorabaylessedwards/Coding_Exercise/master/randomPoints.csv'
 
 # read in the csv files as pandas data frames
-buildings = pd.read_csv(url_b, error_bad_lines=False)
-points = pd.read_csv(url_q, error_bad_lines=False)
+buildings = pd.read_csv(url_b)
+points = pd.read_csv(url_q)
 # this function creates Geopandas Geodataframe
 # with which you can run spatial operations
 def create_gdf(df, x="X", y="Y"):
